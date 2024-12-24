@@ -1,0 +1,153 @@
+
+body{
+    margin: 0px;
+}
+.h{
+    background-image: url(pics/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+#logo{
+    text-decoration: none;
+  color:#FFEB00;    
+}
+
+
+header{
+    padding:1.2em ;
+    
+
+}
+#logo {
+    flex: 3;
+    font-size: 3.5em;
+    
+}
+#logo i{
+    margin-right: 0.5em;
+}
+nav {
+    padding: 20px;
+    padding-right: 50px;
+    padding-top: 80px;
+    font-size: 1.50em;
+}
+#c5{
+    margin-right: 0.3em;
+}
+nav a{
+    flex: 1;
+    padding-right: 50px;
+    text-decoration: none;
+    color:#FFD0EC;
+}
+nav a:hover{
+    color:#C7253E ;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+   justify-content: center;
+   padding: 2em;
+    
+}
+.main1{
+    color:#FF9100;
+    font-size: 3em;
+    font-weight: bolder;
+
+}
+.main2{
+    color:#D5ED9F ;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.main2:hover{
+    color: aqua;
+}
+.main3{
+    color:#F8EDE3;
+    padding: 10px;
+
+}
+.main3:hover{
+    color:#03346E ;
+}
+.main button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:#F6E96B;
+    border: 1px solid greenyellow;
+}
+.main button a{
+    text-decoration: none;
+}
+/*enter html*/
+body{
+    background-image:url(menu/11.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+h1{
+    font-family: "Jacques Francois Shadow", serif;
+    color:white;
+        background-color:palevioletred;
+    display: inline;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+
+}
+#a1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+#a1 div{
+    width: 200px;
+    color: white;
+    margin: 10px;
+    flex-basis: 2;
+}
+#c1{
+    
+        padding: .7em;
+        border-radius: 10px;
+        background-color:orange;
+        border: 2px solid palevioletred;
+        color:white;
+        
+    
+}
+#c1:hover{
+    color: black;
+}
+#c2{
+    color: #D8A25E;
+}
+
+#c4{
+    font-family: "Libre Baskerville", serif;
+    color: #640D5F;
+}
+#c6{
+    color:red;
+    font-weight: bolder
+}
+#c7{
+    color: black;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
